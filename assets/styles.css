@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz@8..144&family=Roboto:wght@500&display=swap");
+@import url("./icomoon/style.css");
+
+:root {
+  --maxImageSize: 1000px;
+}
+
+body,
+html {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  overflow: hidden;
+}
+
+/* * {
+  box-sizing: border-box;
+} */
+
+a.step {
+  background-color: rgba(0, 0, 0, 0.25);
+  border-radius: 0.2rem;
+  font-size: 5rem;
+  padding: 0.5rem;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.65);
+  margin-top: -2.5rem;
+  transition: all 0.25s ease;
+}
+
+.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+a.step:hover {
+  color: rgba(255, 255, 255, 0.85);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.projects {
+  display: flex;
+  scroll-snap-type: x mandatory;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+}
+
+.projects a.step {
+  position: fixed;
+  top: 50%;
+  left: 1rem;
+}
+
+.projects a.step.next {
+  right: 1rem;
+  left: auto;
+}
+
+.project {
+  scroll-snap-align: start;
+  min-width: 100vw;
+  height: 100vh;
+  overflow-y: auto;
+  position: relative;
+  text-align: center;
+}
+
+.project .copy {
+  padding: 2rem;
+  flex-direction: column;
+
+  text-align: left;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+
+.project .copy * {
+  text-align: left;
+  max-width: 1000px;
+  width: 100%;
+}
+
+.project .copy p {
+  font-family: "Roboto Serif", sans-serif;
+  font-weight: 100;
+  line-height: 1.5rem;
+  white-space: pre-wrap;
+}
+
+.project .copy h2 {
+  font-size: 2rem;
+  font-family: "Roboto", serif;
+  margin-bottom: 1rem;
+}
+
+.project .img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.project .img-container img {
+  box-sizing: border-box;
+  max-width: 100%;
+  height: auto;
+  /* max-width: 100vw; */
+  /* height: auto; */
+  /* width: auto; */
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* breakpoints */
+
+@media (max-width: 768px) {
+  a.step {
+    display: none;
+  }
+}

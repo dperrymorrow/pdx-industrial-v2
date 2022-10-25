@@ -1,0 +1,68 @@
+[
+  {
+    "title": "Giro Models",
+    "description": "I'm baby locavore pop-up master cleanse retro irony meh put a bird on it ugh marfa tofu salvia scenester slow-carb. Stumptown flexitarian vexillologist, post-ironic deep v JOMO thundercats readymade. Brooklyn disrupt kogi poke. Succulents sus flannel, poke man bun fingerstache blue bottle gastropub raclette.\n\nShabby chic vaporware truffaut, sriracha ramps banjo beard bruh keytar hot chicken. Subway tile tousled gatekeep butcher celiac brunch sus Brooklyn edison bulb franzen readymade mumblecore. Intelligentsia green juice locavore, occupy af shaman bitters taiyaki raclette. Retro deep v bitters iPhone intelligentsia adaptogen. Ramps pok pok fanny pack jean shorts schlitz big mood thundercats praxis viral pork belly photo booth small batch portland YOLO. Bushwick taxidermy beard lumbersexual health goth shoreditch dreamcatcher coloring book authentic semiotics stumptown raclette man bun typewriter cornhole.\nDreamcatcher bodega boys twee ascot cronut keytar, cliche single-origin coffee green juice plaid. Hammock fit four dollar toast portland bitters, gentrify sus tofu 90's vinyl fanny pack hell of adaptogen cardigan lumbersexual. Tacos shoreditch poke humblebrag hell of ascot. Subway tile slow-carb portland direct trade whatever, crucifix food truck cray. Butcher bitters selfies echo park quinoa roof party. Mustache raw denim bespoke stumptown readymade VHS.",
+    "images": ["Giromodels.jpg"],
+    "colors": {
+      "txtBg": "#2b2b2b",
+      "imgBg": "#f7f5ee",
+      "headline": "#d8eb61",
+      "paragraph": "#d7d5cf"
+    }
+  },
+  {
+    "title": "Giro Tech H-Lace",
+    "description": "Snackwave four dollar toast cornhole, 90's paleo gentrify echo park cold-pressed fam cray pour-over kinfolk big mood knausgaard. YOLO polaroid vibecession vinyl fixie. Af retro polaroid tbh. Sus keffiyeh meditation, tumeric whatever gochujang quinoa kogi. Knausgaard shabby chic humblebrag organic, bruh cliche roof party activated charcoal copper mug meh vegan put a bird on it pickled. Celiac tote bag microdosing, cloud bread health goth cornhole shaman tbh succulents retro you probably haven't heard of them wolf. Crucifix viral kombucha fashion axe.",
+    "images": ["GiroTechlace.jpg"],
+    "colors": {
+      "txtBg": "#221f21",
+      "imgBg": "#d8d8db",
+      "headline": "#fd5035",
+      "paragraph": "#e9e9eb"
+    }
+  },
+  {
+    "title": "Giro Bike backpack",
+    "description": "I'm baby beard farm-to-table live-edge, leggings DSA sriracha meh everyday carry kale chips vaporware viral tofu chillwave VHS wolf. Bruh sus street art distillery flexitarian. Art party street art iPhone banh mi freegan intelligentsia. Ugh la croix praxis, normcore venmo cliche gochujang pour-over fixie big mood artisan pitchfork selvage. Enamel pin sustainable literally meditation lo-fi health goth food truck put a bird on it kitsch listicle sus praxis. Letterpress shaman bitters hashtag copper mug JOMO retro tousled VHS occupy yuccie next level. Master cleanse pour-over shaman lumbersexual biodiesel hell of Brooklyn pug.",
+    "images": ["GiroPack.jpg"],
+    "colors": {
+      "txtBg": "#483f3d",
+      "imgBg": "#bfbdbc",
+      "headline": "#ff5e38",
+      "paragraph": "#f3f1f2"
+    }
+  },
+  {
+    "title": "UA Cleats Design Study",
+    "description": "Salvia listicle marfa letterpress hammock shabby chic. Sriracha tbh actually plaid organic food truck readymade fashion axe JOMO small batch pork belly bitters succulents squid. Listicle flexitarian DSA taxidermy, single-origin coffee drinking vinegar chia artisan man braid irony cliche copper mug art party umami lyft. La croix actually typewriter celiac +1 seitan, franzen heirloom food truck kogi chartreuse fingerstache fam. Mumblecore farm-to-table pabst, biodiesel gluten-free 8-bit tumblr.",
+    "images": ["UAcleats.jpg"],
+    "colors": {
+      "txtBg": "#6e7681",
+      "imgBg": "#efefef",
+      "headline": "#dedf27",
+      "paragraph": "#fff"
+    }
+  },
+  {
+    "title": "Kuru Boots",
+    "description": "Salvia listicle marfa letterpress hammock shabby chic. Sriracha tbh actually plaid organic food truck readymade fashion axe JOMO small batch pork belly bitters succulents squid. Listicle flexitarian DSA taxidermy, single-origin coffee drinking vinegar chia artisan man braid irony cliche copper mug art party umami lyft. La croix actually typewriter celiac +1 seitan, franzen heirloom food truck kogi chartreuse fingerstache fam. Mumblecore farm-to-table pabst, biodiesel gluten-free 8-bit tumblr.",
+    "images": ["KuruBoots.jpg"],
+    "colors": {
+      "txtBg": "#394546",
+      "imgBg": "#999999",
+      "headline": "#bac96c",
+      "paragraph": "#cdd4d6"
+    }
+  },
+  {
+    "title": "Kuru Trainer",
+    "description": "Salvia listicle marfa letterpress hammock shabby chic. Sriracha tbh actually plaid organic food truck readymade fashion axe JOMO small batch pork belly bitters succulents squid. Listicle flexitarian DSA taxidermy, single-origin coffee drinking vinegar chia artisan man braid irony cliche copper mug art party umami lyft. La croix actually typewriter celiac +1 seitan, franzen heirloom food truck kogi chartreuse fingerstache fam. Mumblecore farm-to-table pabst, biodiesel gluten-free 8-bit tumblr.",
+    "images": ["KuruTrainer.jpg"],
+    "colors": {
+      "txtBg": "#3c2e31",
+      "imgBg": "#9ca3aa",
+      "headline": "#eca1d6",
+      "paragraph": "#d2dfe1"
+    }
+  }
+]
