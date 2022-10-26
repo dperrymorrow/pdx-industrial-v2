@@ -1,13 +1,13 @@
 [
   {
-    "title": "Giro Models",
+    "title": "Giro Mountain Bike Shoe",
     "description": "I'm baby locavore pop-up master cleanse retro irony meh put a bird on it ugh marfa tofu salvia scenester slow-carb. Stumptown flexitarian vexillologist, post-ironic deep v JOMO thundercats readymade. Brooklyn disrupt kogi poke. Succulents sus flannel, poke man bun fingerstache blue bottle gastropub raclette.\n\nShabby chic vaporware truffaut, sriracha ramps banjo beard bruh keytar hot chicken. Subway tile tousled gatekeep butcher celiac brunch sus Brooklyn edison bulb franzen readymade mumblecore. Intelligentsia green juice locavore, occupy af shaman bitters taiyaki raclette. Retro deep v bitters iPhone intelligentsia adaptogen. Ramps pok pok fanny pack jean shorts schlitz big mood thundercats praxis viral pork belly photo booth small batch portland YOLO. Bushwick taxidermy beard lumbersexual health goth shoreditch dreamcatcher coloring book authentic semiotics stumptown raclette man bun typewriter cornhole.\nDreamcatcher bodega boys twee ascot cronut keytar, cliche single-origin coffee green juice plaid. Hammock fit four dollar toast portland bitters, gentrify sus tofu 90's vinyl fanny pack hell of adaptogen cardigan lumbersexual. Tacos shoreditch poke humblebrag hell of ascot. Subway tile slow-carb portland direct trade whatever, crucifix food truck cray. Butcher bitters selfies echo park quinoa roof party. Mustache raw denim bespoke stumptown readymade VHS.",
-    "images": ["Giromodels.jpg"],
+    "images": ["MTBShoe.jpg"],
     "colors": {
-      "txtBg": "#2b2b2b",
-      "imgBg": "#f7f5ee",
-      "headline": "#d8eb61",
-      "paragraph": "#d7d5cf"
+      "txtBg": "#232323",
+      "imgBg": "#f1eedb",
+      "headline": "#c0f7bb",
+      "paragraph": "#f6f0e7"
     }
   },
   {
