@@ -1,9 +1,9 @@
 <div class="projects" data-slider="true">
 
   {{#each projects as |project index|}}
-    <div class="project" data-slide="{{index}}">
+    <div class="project" data-slide="{{index}}" id="slide={{index}}">
       <div
-        class="img-container container"
+        class="img container"
         style="background-color: {{project.colors.imgBg}};"
       >
         {{#each images}}
@@ -14,14 +14,12 @@
         class="copy container"
         style="background-color: {{project.colors.txtBg}};"
       >
-
         <div class="copy-inner">
           <h2 style="color: {{project.colors.headline}};">{{project.title}}</h2>
           <p
             style="color: {{project.colors.paragraph}};"
           >{{project.description}}</p>
         </div>
-
       </div>
     </div>
   {{/each}}

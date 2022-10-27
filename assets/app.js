@@ -11,7 +11,18 @@ function interact() {
   let currentSlide = 0;
 
   slider.addEventListener("scroll", () => {
-    console.log(slider.scrollLeft);
+    const { width } = document.querySelector("#app").getBoundingClientRect();
+    console.log(slider.scrollLeft > slider.offsetWidth);
+
+    // console.log(slider.scrollWidth);
+
+    if (slider.scrollleft > slider.offsetWidth) {
+      nextButton.classList.add("hidden");
+      console.log("triggered");
+    }
+    // else nextButton.classList.remove("hidden");
+    if (slider.scrollLeft === 0) prevButton.classList.add("hidden");
+    else prevButton.classList.remove("hidden");
   });
 
   function slide(direction) {
@@ -34,11 +45,6 @@ function interact() {
       left,
       behavior: "smooth",
     });
-
-    if (currentSlide <= 0) prevButton.classList.add("hidden");
-    else prevButton.classList.remove("hidden");
-    if (currentSlide >= projects.length - 1) nextButton.classList.add("hidden");
-    else nextButton.classList.remove("hidden");
   }
 }
 

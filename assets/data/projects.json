@@ -2,12 +2,12 @@
   {
     "title": "Giro Mountain Bike Shoe",
     "description": "I'm baby locavore pop-up master cleanse retro irony meh put a bird on it ugh marfa tofu salvia scenester slow-carb. Stumptown flexitarian vexillologist, post-ironic deep v JOMO thundercats readymade. Brooklyn disrupt kogi poke. Succulents sus flannel, poke man bun fingerstache blue bottle gastropub raclette.\n\nShabby chic vaporware truffaut, sriracha ramps banjo beard bruh keytar hot chicken. Subway tile tousled gatekeep butcher celiac brunch sus Brooklyn edison bulb franzen readymade mumblecore. Intelligentsia green juice locavore, occupy af shaman bitters taiyaki raclette. Retro deep v bitters iPhone intelligentsia adaptogen. Ramps pok pok fanny pack jean shorts schlitz big mood thundercats praxis viral pork belly photo booth small batch portland YOLO. Bushwick taxidermy beard lumbersexual health goth shoreditch dreamcatcher coloring book authentic semiotics stumptown raclette man bun typewriter cornhole.\nDreamcatcher bodega boys twee ascot cronut keytar, cliche single-origin coffee green juice plaid. Hammock fit four dollar toast portland bitters, gentrify sus tofu 90's vinyl fanny pack hell of adaptogen cardigan lumbersexual. Tacos shoreditch poke humblebrag hell of ascot. Subway tile slow-carb portland direct trade whatever, crucifix food truck cray. Butcher bitters selfies echo park quinoa roof party. Mustache raw denim bespoke stumptown readymade VHS.",
-    "images": ["MTBShoe.jpg"],
+    "images": ["MTBshoe.jpg"],
     "colors": {
-      "txtBg": "#232323",
-      "imgBg": "#f1eedb",
-      "headline": "#c0f7bb",
-      "paragraph": "#f6f0e7"
+      "txtBg": "#434d54",
+      "imgBg": "#ebd7cb",
+      "headline": "#b3d399",
+      "paragraph": "#f7f1e8"
     }
   },
   {
@@ -15,7 +15,7 @@
     "description": "Snackwave four dollar toast cornhole, 90's paleo gentrify echo park cold-pressed fam cray pour-over kinfolk big mood knausgaard. YOLO polaroid vibecession vinyl fixie. Af retro polaroid tbh. Sus keffiyeh meditation, tumeric whatever gochujang quinoa kogi. Knausgaard shabby chic humblebrag organic, bruh cliche roof party activated charcoal copper mug meh vegan put a bird on it pickled. Celiac tote bag microdosing, cloud bread health goth cornhole shaman tbh succulents retro you probably haven't heard of them wolf. Crucifix viral kombucha fashion axe.",
     "images": ["GiroTechlace.jpg"],
     "colors": {
-      "txtBg": "#221f21",
+      "txtBg": "#3f3639",
       "imgBg": "#d8d8db",
       "headline": "#fd5035",
       "paragraph": "#e9e9eb"
@@ -37,10 +37,10 @@
     "description": "Salvia listicle marfa letterpress hammock shabby chic. Sriracha tbh actually plaid organic food truck readymade fashion axe JOMO small batch pork belly bitters succulents squid. Listicle flexitarian DSA taxidermy, single-origin coffee drinking vinegar chia artisan man braid irony cliche copper mug art party umami lyft. La croix actually typewriter celiac +1 seitan, franzen heirloom food truck kogi chartreuse fingerstache fam. Mumblecore farm-to-table pabst, biodiesel gluten-free 8-bit tumblr.",
     "images": ["UAcleats.jpg"],
     "colors": {
-      "txtBg": "#6e7681",
-      "imgBg": "#efefef",
+      "txtBg": "#5f6778",
+      "imgBg": "#c3babf",
       "headline": "#dedf27",
-      "paragraph": "#fff"
+      "paragraph": "#e2e9ef"
     }
   },
   {
@@ -63,6 +63,18 @@
       "imgBg": "#9ca3aa",
       "headline": "#eca1d6",
       "paragraph": "#d2dfe1"
+    }
+  },
+
+  {
+    "title": "Nike Innovation",
+    "description": "Salvia listicle marfa letterpress hammock shabby chic. Sriracha tbh actually plaid organic food truck readymade fashion axe JOMO small batch pork belly bitters succulents squid. Listicle flexitarian DSA taxidermy, single-origin coffee drinking vinegar chia artisan man braid irony cliche copper mug art party umami lyft. La croix actually typewriter celiac +1 seitan, franzen heirloom food truck kogi chartreuse fingerstache fam. Mumblecore farm-to-table pabst, biodiesel gluten-free 8-bit tumblr.",
+    "images": ["NikeInnovation.jpg"],
+    "colors": {
+      "txtBg": "#374240",
+      "imgBg": "#bebebe",
+      "headline": "#f7bd2c",
+      "paragraph": "#f0ebeb"
     }
   }
 ]
