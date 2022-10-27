@@ -1,32 +1,35 @@
 <div class="projects" data-slider="true">
 
   {{#each projects as |project index|}}
-    <div
-      class="project"
-      style="background-color: {{project.colors.txtBg}};"
-      data-slide="{{index}}"
-    >
+    <div class="project" data-slide="{{index}}">
       <div
-        class="img-container"
+        class="img-container container"
         style="background-color: {{project.colors.imgBg}};"
       >
         {{#each images}}
           <img src="./assets/images/projects/{{this}}" />
         {{/each}}
       </div>
-      <div class="copy" style="background-color: {{project.colors.txtBg}};">
-        <h2 style="color: {{project.colors.headline}};">{{project.title}}</h2>
-        <p
-          style="color: {{project.colors.paragraph}};"
-        >{{project.description}}</p>
+      <div
+        class="copy container"
+        style="background-color: {{project.colors.txtBg}};"
+      >
+
+        <div class="copy-inner">
+          <h2 style="color: {{project.colors.headline}};">{{project.title}}</h2>
+          <p
+            style="color: {{project.colors.paragraph}};"
+          >{{project.description}}</p>
+        </div>
+
       </div>
     </div>
   {{/each}}
 
-  <a class="step prev hidden" data-prev="true" href="#"><i
-      class="icon-chevron-left"
-    ></i></a>
-  <a class="step next" data-next="true" href="#"><i
-      class="icon-chevron-right"
-    ></i></a>
+  <a class="step prev hidden" data-prev="true" href="#">
+    <i class="icon-chevron-left"></i>
+  </a>
+  <a class="step next" data-next="true" href="#">
+    <i class="icon-chevron-right"></i>
+  </a>
 </div>

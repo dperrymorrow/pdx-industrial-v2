@@ -61,56 +61,61 @@ a.step:hover {
   scroll-snap-align: start;
   min-width: 100vw;
   height: 100vh;
-  overflow-y: auto;
   position: relative;
-  text-align: center;
-}
 
-.project .copy {
-  padding: 2rem;
-  flex-direction: column;
-
-  text-align: left;
-  width: 100%;
-  box-sizing: border-box;
   display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: flex-start;
 }
 
-.project .copy * {
-  text-align: left;
-  max-width: 1000px;
+.project .container {
   width: 100%;
+  display: flex;
 }
 
-.project .copy p {
-  font-family: "Roboto Serif", sans-serif;
-  font-weight: 100;
-  line-height: 1.5rem;
-  white-space: pre-wrap;
-}
-
-.project .copy h2 {
-  font-size: 2rem;
-  font-family: "Roboto", serif;
-  margin-bottom: 1rem;
-}
-
+/* the top half of the image portion */
 .project .img-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
+  max-height: var(--maxImageSize);
 }
 
 .project .img-container img {
-  box-sizing: border-box;
   max-width: 100%;
   height: auto;
-  /* max-width: 100vw; */
-  /* height: auto; */
-  /* width: auto; */
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* the bottom half the copy */
+.project .copy {
+  flex-grow: 1;
+  align-items: flex-start;
+  justify-content: center;
+  overflow-y: auto;
+}
+
+.project .copy .copy-inner {
+  max-width: var(--maxImageSize);
+  background-color: rgba(0, 0, 0, 0.2);
+  min-height: 100%;
+}
+
+.project .copy p {
+  padding: 1rem 2rem;
+  font-family: "Roboto Serif", sans-serif;
+  font-weight: 100;
+  line-height: 1.75rem;
+  white-space: pre-wrap;
+}
+
+.project .copy h2 {
+  padding: 1.5rem 2rem;
+  letter-spacing: -0.05rem;
+  font-size: 2rem;
+  font-family: "Roboto", serif;
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 /* breakpoints */

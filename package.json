@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "http-serve -p 8080"
+    "dev": "http-serve -c-1 -p 8080"
   },
   "repository": {
     "type": "git",
