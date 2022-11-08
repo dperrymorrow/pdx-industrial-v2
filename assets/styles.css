@@ -14,6 +14,12 @@ html {
   overflow: hidden;
 }
 
+.loader {
+  background-image: url("./images/loader.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 /* * {
   box-sizing: border-box;
 } */
@@ -44,7 +50,9 @@ a.step:hover {
   scroll-snap-type: x mandatory;
   overflow-x: scroll;
   scroll-behavior: smooth;
+}
 
+.projects.intro {
   animation: slideIn 0.5s ease;
 }
 
@@ -80,11 +88,13 @@ a.step:hover {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
+  scroll-behavior: smooth;
 }
 
 .project .container {
   width: 100%;
   display: flex;
+  /* flex-grow: 1; */
 }
 
 /* the top half of the image portion */
@@ -92,13 +102,19 @@ a.step:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-height: var(--maxImageSize);
 }
 
 .project .img img {
   max-width: 100%;
+  max-height: 100%;
   height: auto;
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.25);
+  transition: all 1s ease-out;
+  opacity: 0;
+}
+
+.project .img img.loaded {
+  opacity: 1;
 }
 
 /* the bottom half the copy */

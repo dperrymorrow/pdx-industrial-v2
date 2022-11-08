@@ -10,6 +10,12 @@ function interact() {
 
   let currentSlide = 0;
 
+  document.querySelectorAll("img").forEach((img) => {
+    img.addEventListener("load", ({ target }) => {
+      target.classList.add("loaded");
+    });
+  });
+
   slider.addEventListener("scroll", () => {
     const { width } = document.querySelector("#app").getBoundingClientRect();
     console.log(slider.scrollLeft > slider.offsetWidth);

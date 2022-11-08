@@ -1,13 +1,13 @@
-<div class="projects" data-slider="true">
+<div class="projects intro" data-slider="true">
 
   {{#each projects as |project index|}}
     <div class="project" data-slide="{{index}}" id="slide={{index}}">
       <div
-        class="img container"
+        class="img container loader"
         style="background-color: {{project.colors.imgBg}};"
       >
         {{#each images}}
-          <img src="./assets/images/projects/{{this}}" />
+          <img width="1000px" height="1000px" src="./assets/images/projects/{{this}}" {{#if index}}loading="lazy"{{/if}} />
         {{/each}}
       </div>
       <div
@@ -15,7 +15,7 @@
         style="background-color: {{project.colors.txtBg}};"
       >
         <div class="copy-inner">
-          <h2 style="color: {{project.colors.headline}};">{{project.title}}</h2>
+          <h2 id="{{project-slug}}" style="color: {{project.colors.headline}};">{{project.title}}</h2>
           <p
             style="color: {{project.colors.paragraph}};"
           >{{project.description}}</p>
