@@ -1,14 +1,54 @@
+import utils from "./utils.js";
+
 let projects = [];
+let slider = null;
+let slides = [];
+let currentSlide = 0;
+
+function slide(direction) {
+  let left;
+  const { scrollLeft, clientWidth } = slider;
+
+  switch (direction) {
+    case "prev":
+      currentSlide--;
+      left = scrollLeft - clientWidth;
+      break;
+    case "next":
+    default:
+      currentSlide++;
+      left = scrollLeft + clientWidth;
+      break;
+  }
+
+  slider.scroll({
+    left,
+    behavior: "smooth",
+  });
+}
+
+function deepLink() {
+  const hash = window.location.hash;
+  if (hash) {
+    const $slide = document.querySelector(
+      `.project[data-slug=${hash.replace("#", "")}]`
+    );
+    if ($slide) $slide.scrollIntoView();
+  } else {
+    slider.classList.add("intro");
+    window.location.hash = slides[0].dataset.slug;
+  }
+}
 
 function interact() {
-  const slider = document.querySelector("[data-slider]");
+  slider = document.querySelector("[data-slider]");
+  slides = Array.from(slider.querySelectorAll(".project"));
+
   const prevButton = document.querySelector("[data-prev]");
   const nextButton = document.querySelector("[data-next]");
 
   prevButton.addEventListener("click", () => slide("prev"));
   nextButton.addEventListener("click", () => slide("next"));
-
-  let currentSlide = 0;
 
   document.querySelectorAll("img").forEach((img) => {
     img.addEventListener("load", ({ target }) => {
@@ -18,10 +58,6 @@ function interact() {
 
   slider.addEventListener("scroll", () => {
     const { width } = document.querySelector("#app").getBoundingClientRect();
-    console.log(slider.scrollLeft > slider.offsetWidth);
-
-    // console.log(slider.scrollWidth);
-
     if (slider.scrollleft > slider.offsetWidth) {
       nextButton.classList.add("hidden");
       console.log("triggered");
@@ -29,29 +65,13 @@ function interact() {
     // else nextButton.classList.remove("hidden");
     if (slider.scrollLeft === 0) prevButton.classList.add("hidden");
     else prevButton.classList.remove("hidden");
-  });
 
-  function slide(direction) {
-    let left;
-    const { scrollLeft, clientWidth } = slider;
-
-    switch (direction) {
-      case "prev":
-        currentSlide--;
-        left = scrollLeft - clientWidth;
-        break;
-      case "next":
-      default:
-        currentSlide++;
-        left = scrollLeft + clientWidth;
-        break;
-    }
-
-    slider.scroll({
-      left,
-      behavior: "smooth",
+    slides.forEach(($slide) => {
+      if (utils.isInViewport($slide)) {
+        window.location.hash = $slide.dataset.slug;
+      }
     });
-  }
+  });
 }
 
 export default {
@@ -66,5 +86,6 @@ export default {
     document.querySelector("#app").innerHTML = template({ projects });
 
     interact();
+    deepLink();
   },
 };

@@ -1,87 +1,362 @@
 [
   {
-    "slug": "",
-    "title": "Giro Mountain Bike Shoe",
-    "description": "I'm baby locavore pop-up master cleanse retro irony meh put a bird on it ugh marfa tofu salvia scenester slow-carb. Stumptown flexitarian vexillologist, post-ironic deep v JOMO thundercats readymade. Brooklyn disrupt kogi poke. Succulents sus flannel, poke man bun fingerstache blue bottle gastropub raclette.\n\nShabby chic vaporware truffaut, sriracha ramps banjo beard bruh keytar hot chicken. Subway tile tousled gatekeep butcher celiac brunch sus Brooklyn edison bulb franzen readymade mumblecore. Intelligentsia green juice locavore, occupy af shaman bitters taiyaki raclette. Retro deep v bitters iPhone intelligentsia adaptogen. Ramps pok pok fanny pack jean shorts schlitz big mood thundercats praxis viral pork belly photo booth small batch portland YOLO. Bushwick taxidermy beard lumbersexual health goth shoreditch dreamcatcher coloring book authentic semiotics stumptown raclette man bun typewriter cornhole.\nDreamcatcher bodega boys twee ascot cronut keytar, cliche single-origin coffee green juice plaid. Hammock fit four dollar toast portland bitters, gentrify sus tofu 90's vinyl fanny pack hell of adaptogen cardigan lumbersexual. Tacos shoreditch poke humblebrag hell of ascot. Subway tile slow-carb portland direct trade whatever, crucifix food truck cray. Butcher bitters selfies echo park quinoa roof party. Mustache raw denim bespoke stumptown readymade VHS.",
-    "images": ["MTBshoe.jpg"],
     "colors": {
-      "txtBg": "#434d54",
-      "imgBg": "#ebd7cb",
-      "headline": "#b3d399",
-      "paragraph": "#f7f1e8"
-    }
+      "imageBg": "#323a43",
+      "text": "#c7cfd3",
+      "textBg": "rgb(32 38 43 / .9)"
+    },
+    "slug": "hydro-flask-soft-cooler",
+    "image": "001.jpg",
+    "description": "Technical design support assisting Hydro Flask’s expansion into the premium soft cooler category"
   },
   {
-    "slug": "",
-    "title": "Giro Tech H-Lace",
-    "description": "Snackwave four dollar toast cornhole, 90's paleo gentrify echo park cold-pressed fam cray pour-over kinfolk big mood knausgaard. YOLO polaroid vibecession vinyl fixie. Af retro polaroid tbh. Sus keffiyeh meditation, tumeric whatever gochujang quinoa kogi. Knausgaard shabby chic humblebrag organic, bruh cliche roof party activated charcoal copper mug meh vegan put a bird on it pickled. Celiac tote bag microdosing, cloud bread health goth cornhole shaman tbh succulents retro you probably haven't heard of them wolf. Crucifix viral kombucha fashion axe.",
-    "images": ["GiroTechlace.jpg"],
     "colors": {
-      "txtBg": "#3f3639",
-      "imgBg": "#d8d8db",
-      "headline": "#fd5035",
-      "paragraph": "#e9e9eb"
-    }
+      "imageBg": "#8d9097",
+      "text": "#ffd568",
+      "textBg": "rgb(43 53 68 / 90%)"
+    },
+    "slug": "nike-rnd",
+    "image": "002.jpg",
+    "description": "Wide variety of advanced innovation concepts explored as part of Nike R&D team"
   },
   {
-    "slug": "",
-    "title": "Giro Bike backpack",
-    "description": "Waterproof, welded roll-top Giro backpack designed for all-season bike commuting",
-    "images": ["GiroPack.jpg"],
     "colors": {
-      "txtBg": "#483f3d",
-      "imgBg": "#bfbdbc",
-      "headline": "#ff5e38",
-      "paragraph": "#f3f1f2"
-    }
+      "imageBg": "#0c2219",
+      "text": "#fee226",
+      "textBg": "rgb(10 18 17 / .9)"
+    },
+    "slug": "bivo",
+    "image": "003.jpg",
+    "description": "Creating beautiful stainless steel bottles to help Bivo disrupt the plastic bike bottle industry"
   },
   {
-    "slug": "",
-    "title": "UA Cleats Design Study",
-    "description": "Salvia listicle marfa letterpress hammock shabby chic. Sriracha tbh actually plaid organic food truck readymade fashion axe JOMO small batch pork belly bitters succulents squid. Listicle flexitarian DSA taxidermy, single-origin coffee drinking vinegar chia artisan man braid irony cliche copper mug art party umami lyft. La croix actually typewriter celiac +1 seitan, franzen heirloom food truck kogi chartreuse fingerstache fam. Mumblecore farm-to-table pabst, biodiesel gluten-free 8-bit tumblr.",
-    "images": ["UAcleats.jpg"],
     "colors": {
-      "txtBg": "#5f6778",
-      "imgBg": "#c3babf",
-      "headline": "#dedf27",
-      "paragraph": "#e2e9ef"
-    }
+      "imageBg": "#383842",
+      "text": "#d1d9e8",
+      "textBg": "rgb(42 32 32 / .95)"
+    },
+    "slug": "columbia",
+    "image": "004.jpg",
+    "description": "Next-gen snow boot design for Columbia, offering waterproof warmth and enhanced ice traction"
   },
   {
-    "slug": "",
-    "title": "Kuru Boots",
-    "description": "Salvia listicle marfa letterpress hammock shabby chic. Sriracha tbh actually plaid organic food truck readymade fashion axe JOMO small batch pork belly bitters succulents squid. Listicle flexitarian DSA taxidermy, single-origin coffee drinking vinegar chia artisan man braid irony cliche copper mug art party umami lyft. La croix actually typewriter celiac +1 seitan, franzen heirloom food truck kogi chartreuse fingerstache fam. Mumblecore farm-to-table pabst, biodiesel gluten-free 8-bit tumblr.",
-    "images": ["KuruBoots.jpg"],
     "colors": {
-      "txtBg": "#394546",
-      "imgBg": "#999999",
-      "headline": "#bac96c",
-      "paragraph": "#cdd4d6"
-    }
+      "imageBg": "#6c6e6f",
+      "text": "#e0c03f",
+      "textBg": "rgb(21 21 21 / .89)"
+    },
+    "slug": "nixon",
+    "image": "005.jpg",
+    "description": "Nixon watch design exploration focused on modern beauty and unique user interface"
   },
   {
-    "slug": "",
-    "title": "Kuru Trainer",
-    "description": "Salvia listicle marfa letterpress hammock shabby chic. Sriracha tbh actually plaid organic food truck readymade fashion axe JOMO small batch pork belly bitters succulents squid. Listicle flexitarian DSA taxidermy, single-origin coffee drinking vinegar chia artisan man braid irony cliche copper mug art party umami lyft. La croix actually typewriter celiac +1 seitan, franzen heirloom food truck kogi chartreuse fingerstache fam. Mumblecore farm-to-table pabst, biodiesel gluten-free 8-bit tumblr.",
-    "images": ["KuruTrainer.jpg"],
     "colors": {
-      "txtBg": "#3c2e31",
-      "imgBg": "#9ca3aa",
-      "headline": "#eca1d6",
-      "paragraph": "#d2dfe1"
-    }
+      "imageBg": "#5d554b",
+      "text": "#ebdccf",
+      "textBg": "rgb(49 48 52 / .9)"
+    },
+    "slug": "nike-considered",
+    "image": "006.jpg",
+    "description": "Iconic accessory for Nike Considered product line, made with 100% natural materials"
   },
-
   {
-    "slug": "",
-    "title": "Nike Innovation",
-    "description": "Salvia listicle marfa letterpress hammock shabby chic. Sriracha tbh actually plaid organic food truck readymade fashion axe JOMO small batch pork belly bitters succulents squid. Listicle flexitarian DSA taxidermy, single-origin coffee drinking vinegar chia artisan man braid irony cliche copper mug art party umami lyft. La croix actually typewriter celiac +1 seitan, franzen heirloom food truck kogi chartreuse fingerstache fam. Mumblecore farm-to-table pabst, biodiesel gluten-free 8-bit tumblr.",
-    "images": ["NikeInnovation.jpg"],
     "colors": {
-      "txtBg": "#374240",
-      "imgBg": "#bebebe",
-      "headline": "#f7bd2c",
-      "paragraph": "#f0ebeb"
-    }
+      "imageBg": "#2c2627",
+      "text": "#f5fec7",
+      "textBg": "rgb(43 43 45 / .9)"
+    },
+    "slug": "giro-cycle-shoes",
+    "image": "007.jpg",
+    "description": "Years of contribution to Giro’s award-winning line of road, trail, and urban cycling shoes"
+  },
+  {
+    "colors": {
+      "imageBg": "#1c1c20",
+      "text": "#c69b9c",
+      "textBg": "rgb(85 80 87 / .7)"
+    },
+    "slug": "nike-customization",
+    "image": "008.jpg",
+    "description": "Nike customization concept offering individual performance choice within a uniform team look"
+  },
+  {
+    "colors": {
+      "imageBg": "#585858",
+      "text": "#efefef",
+      "textBg": "rgb(48 48 48 / .9)"
+    },
+    "slug": "infocus",
+    "image": "009.jpg",
+    "description": "Design exploration and modeling for Infocus desktop video-conferencing equipment"
+  },
+  {
+    "colors": {
+      "imageBg": "#464646",
+      "text": "#ffcac7",
+      "textBg": "rgb(51 33 23 / .8)"
+    },
+    "slug": "emu",
+    "image": "010.jpg",
+    "description": "Cozy, cute women’s sheepskin slipper concepts for Australian footwear brand Emu"
+  },
+  {
+    "colors": {
+      "imageBg": "#4b3f43",
+      "text": "#eeaeda",
+      "textBg": "rgb(40 21 21 / .9)"
+    },
+    "slug": "zenimal",
+    "image": "011.jpg",
+    "description": "Zenimal’s Meditation turtle is a tactile audio device encouraging mindfulness in children"
+  },
+  {
+    "colors": {
+      "imageBg": "#535355",
+      "text": "#ffd3af",
+      "textBg": "rgb(63 51 50 / .9)"
+    },
+    "slug": "giro-rolltop",
+    "image": "012.jpg",
+    "description": "Waterproof, welded roll-top Giro backpack designed for all-season bike commuting"
+  },
+  {
+    "colors": {
+      "imageBg": "#191f2a",
+      "text": "#d6c9c2",
+      "textBg": "rgb(15 10 7 / .9)"
+    },
+    "slug": "bra",
+    "image": "013.jpg",
+    "description": "CAD development & test prototype support for modern bra style offering supportive, strapless comfort"
+  },
+  {
+    "colors": {
+      "imageBg": "#615f5f",
+      "text": "#c6f5fd",
+      "textBg": "rgb(30 35 34 / .9)"
+    },
+    "slug": "origami-luggage",
+    "image": "014.jpg",
+    "description": "Innovative origami-inspired luggage line offering an organized, accessible travel experience"
+  },
+  {
+    "colors": {
+      "imageBg": "#191e21",
+      "text": "#aeff7e",
+      "textBg": "rgb(0 0 0 / 90%)"
+    },
+    "slug": "kuru",
+    "image": "015.jpg",
+    "description": "Kuru footwear promises an orthopedic level of underfoot support in casual, stylish silhouettes"
+  },
+  {
+    "colors": {
+      "imageBg": "#343434",
+      "text": "#fce7a8",
+      "textBg": "rgb(22 22 25 / .9)"
+    },
+    "image": "016.jpg",
+    "slug": "nazent",
+    "description": "Nazent’s gaiter has a tailored fit for comfortable breathing and anti-fog protection in extreme conditions"
+  },
+  {
+    "colors": {
+      "imageBg": "#190d0d",
+      "text": "#efe2e0",
+      "textBg": "rgb(83 59 64 / .9)"
+    },
+    "slug": "pashion",
+    "image": "017.jpg",
+    "description": "Design + engineering collaboration to achieve Pashion’s unique goal of creating a convertible high-heel"
+  },
+  {
+    "colors": {
+      "imageBg": "#32312c",
+      "text": "#f8b2b4",
+      "textBg": "rgb(16 15 14 / .9)"
+    },
+    "slug": "giro-urban-cycling",
+    "image": "018.jpg",
+    "description": "Giro urban cycling collection masks performance functionality under a streetwear aesthetic"
+  },
+  {
+    "colors": {
+      "imageBg": "#201812",
+      "text": "#f4e7ae",
+      "textBg": "rgb(0 0 0 / .9)"
+    },
+    "slug": "hp",
+    "image": "019.jpg",
+    "description": "User research program led to a unique all-in-one portable multimedia product for HP"
+  },
+  {
+    "colors": {
+      "imageBg": "#2a2a2b",
+      "text": "#fdd1bc",
+      "textBg": "rgb(11 11 11 / .9)"
+    },
+    "slug": "nike-soccer",
+    "image": "020.jpg",
+    "description": "Performance soccer innovation for Nike - lighter weight, enhanced fit, customizable traction, etc."
+  },
+  {
+    "colors": {
+      "imageBg": "#1c181e",
+      "text": "#fff1b2",
+      "textBg": "rgb(78 72 80 / .9)"
+    },
+    "slug": "burley",
+    "image": "021.jpg",
+    "description": "Development of waterproof soft good accessories for Burley’s versatile bike-trailer system"
+  },
+  {
+    "colors": {
+      "imageBg": "#34393e",
+      "text": "#fff8e7",
+      "textBg": "rgb(20 21 25 / 76%)"
+    },
+    "slug": "herman-miller",
+    "image": "022.jpg",
+    "description": "Standing-height, mobile collaboration table produced as part of family of open-office solutions for Herman Miller"
+  },
+  {
+    "colors": {
+      "imageBg": "#433d3f",
+      "text": "#ffceb7",
+      "textBg": "rgb(13 14 13 / 58%)"
+    },
+    "slug": "under-armour",
+    "image": "023.jpg",
+    "description": "Futuristic glove project leveraged footwear materials and manufacturing methods for Under Armour"
+  },
+  {
+    "colors": {
+      "imageBg": "#b4b4b4",
+      "text": "#c0e5fc",
+      "textBg": "rgb(22 21 24 / 87%)"
+    },
+    "slug": "mio",
+    "image": "024.jpg",
+    "description": "Men’s sport watch concepts integrated performance, health-tracking and HR tech for wearables company Mio"
+  },
+  {
+    "colors": {
+      "imageBg": "#8c8a88",
+      "text": "#defffd",
+      "textBg": "rgb(33 33 33 / 85%)"
+    },
+    "slug": "oakley",
+    "image": "025.jpg",
+    "description": "Conceptual program for Oakley’s swimwear division resulted in innovative, iconic sandal designs"
+  },
+  {
+    "colors": {
+      "imageBg": "#e0dcdb",
+      "text": "#eeeeff",
+      "textBg": "rgb(93 121 119 / 85%)"
+    },
+    "slug": "steelcase",
+    "image": "026.jpg",
+    "description": "Study of mobile work scenarios and patterns to identify new accessory opportunities for Steelcase"
+  },
+  {
+    "colors": {
+      "imageBg": "#afafaf",
+      "text": "#d1f8ff",
+      "textBg": "rgb(54 54 54 / 80%)"
+    },
+    "slug": "therapy-wrap",
+    "image": "027.jpg",
+    "description": "Targeted, comfortable and user-friendly heat therapy wrap concept for sport / medical startup"
+  },
+  {
+    "colors": {
+      "imageBg": "#e0d4d9",
+      "text": "#ffd7d9",
+      "textBg": "rgb(76 68 77 / 91%)"
+    },
+    "slug": "nike-presto",
+    "image": "028.jpg",
+    "description": "Iconic ‘Taco’ backpack designed for Nike Presto product line, featured in Surface magazine"
+  },
+  {
+    "colors": {
+      "imageBg": "#c3c3c3",
+      "text": "#ffe6f4",
+      "textBg": "rgb(77 81 74 / 89%)"
+    },
+    "slug": "humanscale",
+    "image": "029.jpg",
+    "description": "Concept exploration for Humanscale searching for unique task seating design approaches"
+  },
+  {
+    "colors": {
+      "imageBg": "#cdcdcd",
+      "text": "#f9ded4",
+      "textBg": "rgb(84 84 84 / 86%)"
+    },
+    "slug": "nike-eyewear",
+    "image": "030.jpg",
+    "description": "Snow goggle concepts for Nike eyewear attempting to identify more as apparel than equipment"
+  },
+  {
+    "colors": {
+      "imageBg": "#ababab",
+      "text": "#ffd5cb",
+      "textBg": "rgb(51 48 49 / 85%)"
+    },
+    "slug": "giro-tech-lace",
+    "image": "031.jpg",
+    "description": "Giro’s innovation-awardedTechLace fit system combined the best aspects of lace and dial performance"
+  },
+  {
+    "colors": {
+      "imageBg": "#d1d1d1",
+      "text": "#ffdbdb",
+      "textBg": "rgb(103 100 106 / 92%)"
+    },
+    "slug": "hasbro",
+    "image": "032.jpg",
+    "description": "Fun sketch exploration of interactive vehicles for re-launch of Weebles toy line by Hasbro"
+  },
+  {
+    "colors": {
+      "imageBg": "#89adb2",
+      "text": "#d0f4ff",
+      "textBg": "rgb(2 28 38 / 81%)"
+    },
+    "slug": "hydro-flask-backpack",
+    "image": "033.jpg",
+    "description": "Performance fit, comfort, and ventilation designed into Hydro Flask’s cold-water hydration backpack"
+  },
+  {
+    "colors": {
+      "imageBg": "#9d9d9e",
+      "text": "#f6b5b7",
+      "textBg": "rgb(49 51 50 / 88%)"
+    },
+    "slug": "new-balance",
+    "image": "034.jpg",
+    "description": "Concepts rendered to identify new tech-integrated fitness opportunities for New Balance"
+  },
+  {
+    "colors": {
+      "imageBg": "#9c9c9c",
+      "text": "#d2f5ff",
+      "textBg": "rgb(34 31 42 / 83%)"
+    },
+    "slug": "jordan",
+    "image": "035.jpg",
+    "description": "Advanced performance basketball footwear concepts created for the Jordan brand"
+  },
+  {
+    "colors": {
+      "imageBg": "#898888",
+      "text": "#ffe2cb",
+      "textBg": "rgb(44 38 36 / 85%)"
+    },
+    "slug": "hp-laptop",
+    "image": "036.jpg",
+    "description": "New forms, material directions, and ergonomic benefits visualized for HP laptop project"
   }
 ]

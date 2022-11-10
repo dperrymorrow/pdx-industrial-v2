@@ -1,16 +1,28 @@
-<div class="projects intro" data-slider="true">
+<div class="projects" data-slider="true">
 
   {{#each projects as |project index|}}
-    <div class="project" data-slide="{{index}}" id="slide={{index}}">
-      <div
+    <div
+      class="project loader"
+      data-slide="{{index}}"
+      id="slide={{index}}"
+      style="background-color: {{project.colors.imageBg}};"
+      data-slug="{{project.slug}}"
+    >
+      <!--<div
         class="img container loader"
         style="background-color: {{project.colors.imgBg}};"
-      >
-        {{#each images}}
-          <img width="1000px" height="1000px" src="./assets/images/projects/{{this}}" {{#if index}}loading="lazy"{{/if}} />
-        {{/each}}
+      >-->
+
+      <img src="./assets/images/projects/{{project.image}}" loading="lazy" />
+
+      <div class="description-container">
+        <div
+          class="description"
+          style="background-color:{{project.colors.textBg}};color:{{project.colors.text}};"
+        >{{project.description}}</div>
       </div>
-      <div
+      <!--<div
+      </div>
         class="copy container"
         style="background-color: {{project.colors.txtBg}};"
       >
@@ -20,7 +32,7 @@
             style="color: {{project.colors.paragraph}};"
           >{{project.description}}</p>
         </div>
-      </div>
+      </div>-->
     </div>
   {{/each}}
 
