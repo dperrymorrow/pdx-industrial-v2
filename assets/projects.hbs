@@ -1,38 +1,23 @@
-<div class="projects" data-slider="true">
-
+<div class="projects" data-slider>
   {{#each projects as |project index|}}
     <div
-      class="project loader"
+      class="project"
       data-slide="{{index}}"
       id="slide={{index}}"
       style="background-color: {{project.colors.imageBg}};"
       data-slug="{{project.slug}}"
     >
-      <!--<div
-        class="img container loader"
-        style="background-color: {{project.colors.imgBg}};"
-      >-->
 
-      <img src="./assets/images/projects/{{project.image}}" loading="lazy" />
+      <div class="img-container loader">
+        {{!-- style="background-image:url('./assets/images/projects/{{project.image}}');" --}}
+        <img src="./assets/images/projects/{{project.image}}" />
+      </div>
 
-      <div class="description-container">
-        <div
-          class="description"
-          style="background-color:{{project.colors.textBg}};color:{{project.colors.text}};"
-        >{{project.description}}</div>
-      </div>
-      <!--<div
-      </div>
-        class="copy container"
-        style="background-color: {{project.colors.txtBg}};"
-      >
-        <div class="copy-inner">
-          <h2 id="{{project-slug}}" style="color: {{project.colors.headline}};">{{project.title}}</h2>
-          <p
-            style="color: {{project.colors.paragraph}};"
-          >{{project.description}}</p>
-        </div>
-      </div>-->
+      <div
+        class="description"
+        style="background-color:{{project.colors.textBg}};color:{{project.colors.text}};"
+      >{{project.description}}</div>
+
     </div>
   {{/each}}
 

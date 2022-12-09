@@ -3,6 +3,24 @@
 
 :root {
   --maxImageSize: 1000px;
+  --headerHeight: 60px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+}
+
+article > * {
+  flex-grow: 1;
+}
+
+header {
+  height: var(--headerHeight);
 }
 
 body,
@@ -48,8 +66,13 @@ a.step:hover {
 .projects {
   display: flex;
   scroll-snap-type: x mandatory;
-  overflow-x: scroll;
+  overflow-x: auto;
+  height: calc(100vh - var(--headerHeight));
   /* scroll-behavior: smooth; */
+}
+
+.projects::-webkit-scrollbar {
+  display: none;
 }
 
 .projects.intro {
@@ -78,20 +101,36 @@ a.step:hover {
 
 .project {
   position: relative;
+  height: 100%;
   scroll-snap-align: start;
   min-width: 100vw;
-  height: 100vh;
-
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.project img {
+/* .project img {
   opacity: 0;
   transition: opacity 1s ease;
-  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.35);
+  max-height: 100%;
+  max-width: 100%;
+} */
+
+.project .img-container {
+  /* border: 3px solid black; */
+  width: 100%;
+  /* flex-grow: 1; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  overflow: hidden;
 }
 
 .project img.loaded {
@@ -99,18 +138,19 @@ a.step:hover {
 }
 
 .project .description {
-  max-width: 980px;
-  border-radius: 1rem;
+  flex-grow: 1;
+  width: 100%;
   box-sizing: border-box;
   padding: 1.3rem;
   font-size: 1.1rem;
   font-family: "Roboto Serif", sans-serif;
   font-weight: 100;
   line-height: 1.75rem;
-  background-color: rgba(0, 0, 0, 0.7);
+  /* background-color: rgba(0, 0, 0, 0.7); */
   color: white;
   text-align: left;
-  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.15);
+
+  /* box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.15); */
 }
 
 /* breakpoints */
@@ -121,10 +161,11 @@ a.step:hover {
     height: auto;
   }
 
-  .project .description-container {
+  /* .project .description-container {
+    border: 1px solid red;
     margin-bottom: -2rem;
     padding: 2rem 2rem 0 2rem;
-  }
+  } */
 }
 
 @media all and (orientation: landscape) {
@@ -133,18 +174,32 @@ a.step:hover {
     width: auto;
   }
 
+  .project .img-container {
+    flex-grow: 200;
+  }
+
+  .project .description {
+    text-align: center;
+  }
+
+  /*
+
   .project .description-container {
     position: absolute;
     bottom: 0;
     left: 0;
+    min-width: 100vw;
     width: 100%;
     display: flex;
     justify-content: center;
-    padding-bottom: 1rem;
-  }
+  } */
 }
 
+/* mobile overrides */
 @media (max-width: 768px) {
+  .project .description {
+    /* background: transparent !important; */
+  }
   a.step {
     display: none;
   }

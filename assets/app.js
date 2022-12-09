@@ -42,7 +42,7 @@ function deepLink() {
 
 function interact() {
   slider = document.querySelector("[data-slider]");
-  slides = Array.from(slider.querySelectorAll(".project"));
+  slides = slider.querySelectorAll(".project");
 
   const prevButton = document.querySelector("[data-prev]");
   const nextButton = document.querySelector("[data-next]");
@@ -57,6 +57,7 @@ function interact() {
   });
 
   slider.addEventListener("scroll", () => {
+    console.log("scrolled");
     const { width } = document.querySelector("#app").getBoundingClientRect();
     if (slider.scrollleft > slider.offsetWidth) {
       nextButton.classList.add("hidden");
@@ -68,6 +69,7 @@ function interact() {
 
     slides.forEach(($slide) => {
       if (utils.isInViewport($slide)) {
+        // $slide.querySelector(".img-container").
         window.location.hash = $slide.dataset.slug;
       }
     });
