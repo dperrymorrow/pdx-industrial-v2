@@ -3,7 +3,7 @@
     "colors": {
       "imageBg": "#323a43",
       "text": "#c7cfd3",
-      "textBg": "rgb(32 38 43 / .9)"
+      "textBg": "#242b34"
     },
     "slug": "hydro-flask-soft-cooler",
     "image": "001.jpg",
@@ -13,7 +13,7 @@
     "colors": {
       "imageBg": "#8d9097",
       "text": "#ffd568",
-      "textBg": "rgb(43 53 68 / 90%)"
+      "textBg": "#404348"
     },
     "slug": "nike-rnd",
     "image": "002.jpg",
@@ -23,7 +23,7 @@
     "colors": {
       "imageBg": "#0c2219",
       "text": "#fee226",
-      "textBg": "rgb(10 18 17 / .9)"
+      "textBg": "09261e"
     },
     "slug": "bivo",
     "image": "003.jpg",
@@ -33,7 +33,7 @@
     "colors": {
       "imageBg": "#383842",
       "text": "#d1d9e8",
-      "textBg": "rgb(42 32 32 / .95)"
+      "textBg": "#3a3b3f"
     },
     "slug": "columbia",
     "image": "004.jpg",
@@ -43,7 +43,7 @@
     "colors": {
       "imageBg": "#6c6e6f",
       "text": "#e0c03f",
-      "textBg": "rgb(21 21 21 / .89)"
+      "textBg": "#4e4e4e"
     },
     "slug": "nixon",
     "image": "005.jpg",
@@ -53,7 +53,7 @@
     "colors": {
       "imageBg": "#5d554b",
       "text": "#ebdccf",
-      "textBg": "rgb(49 48 52 / .9)"
+      "textBg": "#494341"
     },
     "slug": "nike-considered",
     "image": "006.jpg",
@@ -63,7 +63,7 @@
     "colors": {
       "imageBg": "#2c2627",
       "text": "#f5fec7",
-      "textBg": "rgb(43 43 45 / .9)"
+      "textBg": "#5f5f5f"
     },
     "slug": "giro-cycle-shoes",
     "image": "007.jpg",
@@ -71,9 +71,19 @@
   },
   {
     "colors": {
+      "imageBg": "#2c2627",
+      "text": "#c9e5f1",
+      "textBg": "#484c50"
+    },
+    "slug": "hydration-hip-pack",
+    "image": "0071.jpg",
+    "description": "Hydration hip pack emphasizing convenient access and comfort for mountain bikers and hikers"
+  },
+  {
+    "colors": {
       "imageBg": "#1c1c20",
-      "text": "#c69b9c",
-      "textBg": "rgb(85 80 87 / .7)"
+      "text": "#626262",
+      "textBg": "#5a5a5a"
     },
     "slug": "nike-customization",
     "image": "008.jpg",
@@ -83,7 +93,7 @@
     "colors": {
       "imageBg": "#585858",
       "text": "#efefef",
-      "textBg": "rgb(48 48 48 / .9)"
+      "textBg": "#343131"
     },
     "slug": "infocus",
     "image": "009.jpg",
@@ -103,7 +113,7 @@
     "colors": {
       "imageBg": "#4b3f43",
       "text": "#eeaeda",
-      "textBg": "rgb(40 21 21 / .9)"
+      "textBg": "#2f3d3b"
     },
     "slug": "zenimal",
     "image": "011.jpg",
@@ -113,7 +123,7 @@
     "colors": {
       "imageBg": "#535355",
       "text": "#ffd3af",
-      "textBg": "rgb(63 51 50 / .9)"
+      "textBg": "#3e3f46"
     },
     "slug": "giro-rolltop",
     "image": "012.jpg",
@@ -123,7 +133,7 @@
     "colors": {
       "imageBg": "#191f2a",
       "text": "#d6c9c2",
-      "textBg": "rgb(15 10 7 / .9)"
+      "textBg": "#191c1e"
     },
     "slug": "bra",
     "image": "013.jpg",
@@ -133,7 +143,7 @@
     "colors": {
       "imageBg": "#615f5f",
       "text": "#c6f5fd",
-      "textBg": "rgb(30 35 34 / .9)"
+      "textBg": "#2c3a40"
     },
     "slug": "origami-luggage",
     "image": "014.jpg",
@@ -143,7 +153,7 @@
     "colors": {
       "imageBg": "#191e21",
       "text": "#aeff7e",
-      "textBg": "rgb(0 0 0 / 90%)"
+      "textBg": "#424b4e"
     },
     "slug": "kuru",
     "image": "015.jpg",
@@ -153,7 +163,7 @@
     "colors": {
       "imageBg": "#343434",
       "text": "#fce7a8",
-      "textBg": "rgb(22 22 25 / .9)"
+      "textBg": "#383d41"
     },
     "image": "016.jpg",
     "slug": "nazent",
@@ -163,7 +173,7 @@
     "colors": {
       "imageBg": "#190d0d",
       "text": "#efe2e0",
-      "textBg": "rgb(83 59 64 / .9)"
+      "textBg": "#392427"
     },
     "slug": "pashion",
     "image": "017.jpg",
@@ -171,9 +181,19 @@
   },
   {
     "colors": {
+      "imageBg": "#190d0d",
+      "text": "#72a3c5",
+      "textBg": "#121c32"
+    },
+    "slug": "hydro-flask-lunch-box",
+    "image": "0171.jpg",
+    "description": "Insulated and easy to clean lunch box, a logical sensible extension to HydroFlask’s product line"
+  },
+  {
+    "colors": {
       "imageBg": "#32312c",
       "text": "#f8b2b4",
-      "textBg": "rgb(16 15 14 / .9)"
+      "textBg": "#2d2b27"
     },
     "slug": "giro-urban-cycling",
     "image": "018.jpg",
@@ -183,7 +203,7 @@
     "colors": {
       "imageBg": "#201812",
       "text": "#f4e7ae",
-      "textBg": "rgb(0 0 0 / .9)"
+      "textBg": "#50565f"
     },
     "slug": "hp",
     "image": "019.jpg",
@@ -193,7 +213,7 @@
     "colors": {
       "imageBg": "#2a2a2b",
       "text": "#fdd1bc",
-      "textBg": "rgb(11 11 11 / .9)"
+      "textBg": "#524c45"
     },
     "slug": "nike-soccer",
     "image": "020.jpg",
@@ -203,7 +223,7 @@
     "colors": {
       "imageBg": "#1c181e",
       "text": "#fff1b2",
-      "textBg": "rgb(78 72 80 / .9)"
+      "textBg": "#69616b"
     },
     "slug": "burley",
     "image": "021.jpg",
@@ -213,7 +233,7 @@
     "colors": {
       "imageBg": "#34393e",
       "text": "#fff8e7",
-      "textBg": "rgb(20 21 25 / 76%)"
+      "textBg": "#7b7974"
     },
     "slug": "herman-miller",
     "image": "022.jpg",
@@ -223,7 +243,7 @@
     "colors": {
       "imageBg": "#433d3f",
       "text": "#ffceb7",
-      "textBg": "rgb(13 14 13 / 58%)"
+      "textBg": "r#5a5b59"
     },
     "slug": "under-armour",
     "image": "023.jpg",
@@ -233,7 +253,7 @@
     "colors": {
       "imageBg": "#b4b4b4",
       "text": "#c0e5fc",
-      "textBg": "rgb(22 21 24 / 87%)"
+      "textBg": "#717284"
     },
     "slug": "mio",
     "image": "024.jpg",
@@ -243,7 +263,7 @@
     "colors": {
       "imageBg": "#8c8a88",
       "text": "#defffd",
-      "textBg": "rgb(33 33 33 / 85%)"
+      "textBg": "#858382"
     },
     "slug": "oakley",
     "image": "025.jpg",
@@ -253,7 +273,7 @@
     "colors": {
       "imageBg": "#e0dcdb",
       "text": "#eeeeff",
-      "textBg": "rgb(93 121 119 / 85%)"
+      "textBg": "#858180"
     },
     "slug": "steelcase",
     "image": "026.jpg",
@@ -263,7 +283,7 @@
     "colors": {
       "imageBg": "#afafaf",
       "text": "#d1f8ff",
-      "textBg": "rgb(54 54 54 / 80%)"
+      "textBg": "#6a6869"
     },
     "slug": "therapy-wrap",
     "image": "027.jpg",
@@ -273,7 +293,7 @@
     "colors": {
       "imageBg": "#e0d4d9",
       "text": "#ffd7d9",
-      "textBg": "rgb(76 68 77 / 91%)"
+      "textBg": "#756870"
     },
     "slug": "nike-presto",
     "image": "028.jpg",
@@ -283,7 +303,7 @@
     "colors": {
       "imageBg": "#c3c3c3",
       "text": "#ffe6f4",
-      "textBg": "rgb(77 81 74 / 89%)"
+      "textBg": "#3f5451"
     },
     "slug": "humanscale",
     "image": "029.jpg",
@@ -293,7 +313,7 @@
     "colors": {
       "imageBg": "#cdcdcd",
       "text": "#f9ded4",
-      "textBg": "rgb(84 84 84 / 86%)"
+      "textBg": "#2f434f"
     },
     "slug": "nike-eyewear",
     "image": "030.jpg",
@@ -303,7 +323,7 @@
     "colors": {
       "imageBg": "#ababab",
       "text": "#ffd5cb",
-      "textBg": "rgb(51 48 49 / 85%)"
+      "textBg": "#515258"
     },
     "slug": "giro-tech-lace",
     "image": "031.jpg",
@@ -313,7 +333,7 @@
     "colors": {
       "imageBg": "#d1d1d1",
       "text": "#ffdbdb",
-      "textBg": "rgb(103 100 106 / 92%)"
+      "textBg": "#425560"
     },
     "slug": "hasbro",
     "image": "032.jpg",
@@ -323,7 +343,7 @@
     "colors": {
       "imageBg": "#89adb2",
       "text": "#d0f4ff",
-      "textBg": "rgb(2 28 38 / 81%)"
+      "textBg": "#0d343e"
     },
     "slug": "hydro-flask-backpack",
     "image": "033.jpg",
@@ -333,7 +353,7 @@
     "colors": {
       "imageBg": "#9d9d9e",
       "text": "#f6b5b7",
-      "textBg": "rgb(49 51 50 / 88%)"
+      "textBg": "#54555a"
     },
     "slug": "new-balance",
     "image": "034.jpg",
@@ -343,7 +363,7 @@
     "colors": {
       "imageBg": "#9c9c9c",
       "text": "#d2f5ff",
-      "textBg": "rgb(34 31 42 / 83%)"
+      "textBg": "#163946"
     },
     "slug": "jordan",
     "image": "035.jpg",
@@ -353,7 +373,7 @@
     "colors": {
       "imageBg": "#898888",
       "text": "#ffe2cb",
-      "textBg": "rgb(44 38 36 / 85%)"
+      "textBg": "#413b38"
     },
     "slug": "hp-laptop",
     "image": "036.jpg",

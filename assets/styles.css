@@ -4,7 +4,7 @@
 :root {
   --maxImageSize: 1000px;
   --headerHeight: 120px;
-  --boxShadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.35);
+  --boxShadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.15);
 }
 
 * {
@@ -193,7 +193,7 @@ a.step:hover {
 
 @media (min-width: 768px) {
   .img-container {
-    padding-top: 5px;
+    padding-top: 8px;
   }
 }
 
