@@ -42,7 +42,7 @@ function deepLink() {
 
 function interact() {
   slider = document.querySelector("[data-slider]");
-  slides = slider.querySelectorAll(".project");
+  slides = Array.from(slider.querySelectorAll(".project"));
 
   const prevButton = document.querySelector("[data-prev]");
   const nextButton = document.querySelector("[data-next]");
@@ -57,22 +57,24 @@ function interact() {
   });
 
   slider.addEventListener("scroll", () => {
-    console.log("scrolled");
-    const { width } = document.querySelector("#app").getBoundingClientRect();
-    if (slider.scrollleft > slider.offsetWidth) {
-      nextButton.classList.add("hidden");
-      console.log("triggered");
-    }
-    // else nextButton.classList.remove("hidden");
-    if (slider.scrollLeft === 0) prevButton.classList.add("hidden");
-    else prevButton.classList.remove("hidden");
+    const $current = slides.find(utils.isInViewport);
 
-    slides.forEach(($slide) => {
-      if (utils.isInViewport($slide)) {
-        // $slide.querySelector(".img-container").
-        window.location.hash = $slide.dataset.slug;
-      }
-    });
+    if ($current) {
+      const dataset = $current.dataset;
+      const { slideIndex, color } = dataset;
+      const index = parseInt(slideIndex);
+
+      console.log(index);
+
+      window.location.hash = $current.dataset.slug;
+      document.getElementById("app-container").style.backgroundColor = color;
+
+      if (index === 0) prevButton.classList.add("hidden");
+      else prevButton.classList.remove("hidden");
+
+      if (index === slides.length - 1) nextButton.classList.add("hidden");
+      else nextButton.classList.remove("hidden");
+    }
   });
 }
 

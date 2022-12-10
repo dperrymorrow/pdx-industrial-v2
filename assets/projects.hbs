@@ -2,20 +2,19 @@
   {{#each projects as |project index|}}
     <div
       class="project"
-      data-slide="{{index}}"
+      data-slide-index="{{index}}"
       id="slide={{index}}"
-      style="background-color: {{project.colors.imageBg}};"
       data-slug="{{project.slug}}"
+      data-color="{{project.colors.textBg}}"
     >
 
       <div class="img-container loader">
-        {{!-- style="background-image:url('./assets/images/projects/{{project.image}}');" --}}
-        <img src="./assets/images/projects/{{project.image}}" />
+        <img src="./assets/images/projects/{{project.image}}" loading="lazy" />
       </div>
 
       <div
         class="description"
-        style="background-color:{{project.colors.textBg}};color:{{project.colors.text}};"
+        style="color:{{project.colors.text}};"
       >{{project.description}}</div>
 
     </div>

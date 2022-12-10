@@ -1,0 +1,59 @@
+.bio {
+  background-color: rgb(191, 191, 191);
+  height: 100vh;
+}
+
+header {
+  background-color: #333;
+  padding: 2rem 8rem;
+}
+
+body,
+section,
+article {
+  overflow: auto !important;
+}
+
+section {
+  padding: 5rem 8rem;
+  columns: 2;
+  flex-grow: 200;
+  color: #191717;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  margin-top: 2rem;
+}
+
+h1 {
+  font-family: "Roboto Serif", serif;
+  font-size: 5rem;
+  font-weight: 600;
+  margin-bottom: 4rem;
+  letter-spacing: -0.12rem;
+  color: rgb(149, 61, 34);
+}
+
+blockquote {
+  padding: 1rem 2rem;
+  margin: 2rem 0;
+  font-size: 1.7rem;
+  line-height: 2.5rem;
+  font-style: italic;
+  border-left: 10px solid #666;
+}
+
+@media (max-width: 768px) {
+  header {
+    padding: 2rem;
+  }
+
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  section {
+    columns: 1;
+    padding: 2rem;
+  }
+}
