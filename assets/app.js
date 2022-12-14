@@ -44,6 +44,11 @@ function interact() {
   slider = document.querySelector("[data-slider]");
   slides = Array.from(slider.querySelectorAll(".project"));
 
+  slider.addEventListener("keyup", ({ code }) => {
+    if (code == "ArrowRight") slide("next");
+    else if (code == "ArrowLeft") slide("prev");
+  });
+
   const prevButton = document.querySelector("[data-prev]");
   const nextButton = document.querySelector("[data-next]");
 
@@ -63,8 +68,6 @@ function interact() {
       const dataset = $current.dataset;
       const { slideIndex, color } = dataset;
       const index = parseInt(slideIndex);
-
-      console.log(index);
 
       window.location.hash = $current.dataset.slug;
       document.getElementById("app-container").style.backgroundColor = color;

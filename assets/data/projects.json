@@ -66,7 +66,7 @@
       "textBg": "#5f5f5f"
     },
     "slug": "giro-cycle-shoes",
-    "image": "007.jpg",
+    "image": "007-0.jpg",
     "description": "Years of contribution to Giro’s award-winning line of road, trail, and urban cycling shoes"
   },
   {
@@ -76,7 +76,7 @@
       "textBg": "#484c50"
     },
     "slug": "hydration-hip-pack",
-    "image": "0071.jpg",
+    "image": "007-1.jpg",
     "description": "Hydration hip pack emphasizing convenient access and comfort for mountain bikers and hikers"
   },
   {
@@ -176,7 +176,7 @@
       "textBg": "#392427"
     },
     "slug": "pashion",
-    "image": "017.jpg",
+    "image": "017-0.jpg",
     "description": "Design + engineering collaboration to achieve Pashion’s unique goal of creating a convertible high-heel"
   },
   {
@@ -186,7 +186,7 @@
       "textBg": "#121c32"
     },
     "slug": "hydro-flask-lunch-box",
-    "image": "0171.jpg",
+    "image": "017-1.jpg",
     "description": "Insulated and easy to clean lunch box, a logical sensible extension to HydroFlask’s product line"
   },
   {
@@ -378,5 +378,82 @@
     "slug": "hp-laptop",
     "image": "036.jpg",
     "description": "New forms, material directions, and ergonomic benefits visualized for HP laptop project"
+  },
+
+  {
+    "colors": {
+      "imageBg": "#898888",
+      "text": "#bfecf8",
+      "textBg": "#424243"
+    },
+    "slug": "adidas",
+    "image": "037.jpg",
+    "description": "Advanced concepts for Adidas exploring how runners might carry and interact with technology on the fly"
+  },
+
+  {
+    "colors": {
+      "imageBg": "#252525",
+      "text": "#ff88b7",
+      "textBg": "#2e2e2e"
+    },
+    "slug": "converse",
+    "image": "038.jpg",
+    "description": "Design language & production specs for family of Converse ‘heritage canvas’ accessories"
+  },
+
+  {
+    "colors": {
+      "imageBg": "#898888",
+      "text": "#fffcef",
+      "textBg": "#250901"
+    },
+    "slug": "s-hook",
+    "image": "039.jpg",
+    "description": "S-Hook by Astro, an extruded aluminum fixture for hanging skate decks as art or for everyday use"
+  },
+
+  {
+    "colors": {
+      "imageBg": "#898888",
+      "text": "#d6eaff",
+      "textBg": "#222222"
+    },
+    "slug": "Bomdiggity",
+    "image": "040.jpg",
+    "description": "Hybrid bike frame design studies and small-item storage solutions for Bomdiggity brand"
+  },
+
+  {
+    "colors": {
+      "imageBg": "#898888",
+      "text": "#ffbfc7",
+      "textBg": "#46454c"
+    },
+    "slug": "acg",
+    "image": "041.jpg",
+    "description": "Adaptive outerwear system concept for Nike ACG with distributed load carry and articulating zip-seams"
+  },
+
+  {
+    "colors": {
+      "imageBg": "#898888",
+      "text": "#ffb094",
+      "textBg": "#1d1111"
+    },
+    "slug": "john-wooden",
+    "image": "042.jpg",
+    "description": "Retro canvas basketball sneaker branded and inspired by legendary coach John Wooden"
+  },
+
+  {
+    "colors": {
+      "imageBg": "#898888",
+      "text": "#f5d4b4",
+      "textBg": "#201f2a"
+    },
+    "slug": "Oughton",
+    "image": "043.jpg",
+    "description": "Equestrian lifestyle brand Oughton’s premium bag line, made in Argentina from rich leather & coated canvas."
   }
 ]

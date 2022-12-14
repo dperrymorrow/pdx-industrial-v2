@@ -5,6 +5,7 @@
   --maxImageSize: 1000px;
   --headerHeight: 120px;
   --boxShadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.15);
+  --red: #622a18;
 }
 
 * {
@@ -19,6 +20,18 @@ article {
 
 article > * {
   flex-grow: 1;
+}
+
+hr {
+  border: 1px solid #999;
+}
+
+strong {
+  font-weight: 700;
+}
+
+a {
+  color: var(--red);
 }
 
 header {

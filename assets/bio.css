@@ -30,7 +30,12 @@ h1 {
   font-weight: 600;
   margin-bottom: 4rem;
   letter-spacing: -0.12rem;
-  color: rgb(149, 61, 34);
+  line-height: 0.8em;
+  color: var(--red);
+}
+
+p {
+  margin-bottom: 2rem;
 }
 
 blockquote {
