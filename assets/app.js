@@ -57,12 +57,21 @@ function interact() {
 
   document.querySelectorAll("img").forEach((img) => {
     img.addEventListener("load", ({ target }) => {
+      target.parentElement.classList.remove("loader");
       target.classList.add("loaded");
     });
   });
 
+  console.log(
+    projects.reduce((acc, p) => {
+      return (acc += p.description) + "\n\n";
+    }, "")
+  );
+
   slider.addEventListener("scroll", () => {
-    const $current = slides.find(utils.isInViewport);
+    const $current = slides.find((slide) => {
+      return utils.isInViewport(slide.querySelector("img"));
+    });
 
     if ($current) {
       const dataset = $current.dataset;
@@ -70,6 +79,7 @@ function interact() {
       const index = parseInt(slideIndex);
 
       window.location.hash = $current.dataset.slug;
+
       document.getElementById("app-container").style.backgroundColor = color;
 
       if (index === 0) prevButton.classList.add("hidden");

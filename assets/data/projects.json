@@ -1,16 +1,6 @@
 [
   {
     "colors": {
-      "imageBg": "#323a43",
-      "text": "#c7cfd3",
-      "textBg": "#242b34"
-    },
-    "slug": "hydro-flask-soft-cooler",
-    "image": "001.jpg",
-    "description": "Technical design support assisting Hydro Flask’s expansion into the premium soft cooler category"
-  },
-  {
-    "colors": {
       "imageBg": "#8d9097",
       "text": "#ffd568",
       "textBg": "#404348"
@@ -18,6 +8,16 @@
     "slug": "nike-rnd",
     "image": "002.jpg",
     "description": "Wide variety of advanced innovation concepts explored as part of Nike R&D team"
+  },
+  {
+    "colors": {
+      "imageBg": "#323a43",
+      "text": "#c7cfd3",
+      "textBg": "#242b34"
+    },
+    "slug": "hydro-flask-soft-cooler",
+    "image": "001.jpg",
+    "description": "Technical design support of Hydro Flask’s expansion into the premium soft cooler category"
   },
   {
     "colors": {
@@ -57,7 +57,7 @@
     },
     "slug": "nike-considered",
     "image": "006.jpg",
-    "description": "Iconic accessory for Nike Considered product line, made with 100% natural materials"
+    "description": "Premium accessory for Nike Considered product line, made with 100% natural materials"
   },
   {
     "colors": {
@@ -81,9 +81,9 @@
   },
   {
     "colors": {
-      "imageBg": "#1c1c20",
-      "text": "#626262",
-      "textBg": "#5a5a5a"
+      "imageBg": "#333",
+      "text": "#999",
+      "textBg": "#111"
     },
     "slug": "nike-customization",
     "image": "008.jpg",
@@ -117,7 +117,7 @@
     },
     "slug": "zenimal",
     "image": "011.jpg",
-    "description": "Zenimal’s Meditation turtle is a tactile audio device encouraging mindfulness in children"
+    "description": "Zenimal’s meditation turtle is a tactile audio device encouraging mindfulness in children"
   },
   {
     "colors": {
@@ -137,7 +137,7 @@
     },
     "slug": "bra",
     "image": "013.jpg",
-    "description": "CAD development & test prototype support for modern bra style offering supportive, strapless comfort"
+    "description": "CAD development & fit test prototyping for modern bra style offering supportive, strapless comfort"
   },
   {
     "colors": {
@@ -187,7 +187,7 @@
     },
     "slug": "hydro-flask-lunch-box",
     "image": "017-1.jpg",
-    "description": "Insulated and easy to clean lunch box, a logical sensible extension to HydroFlask’s product line"
+    "description": "Insulated and easy to clean lunch box, a logical extension to HydroFlask’s product line"
   },
   {
     "colors": {
@@ -197,7 +197,7 @@
     },
     "slug": "giro-urban-cycling",
     "image": "018.jpg",
-    "description": "Giro urban cycling collection masks performance functionality under a streetwear aesthetic"
+    "description": "Giro urban cycling collection builds performance functionality into streetwear silhouettes"
   },
   {
     "colors": {
@@ -217,7 +217,7 @@
     },
     "slug": "nike-soccer",
     "image": "020.jpg",
-    "description": "Performance soccer innovation for Nike - lighter weight, enhanced fit, customizable traction, etc."
+    "description": "Performance soccer innovation for Nike - lighter weight, enhanced fit, customizable traction…"
   },
   {
     "colors": {
@@ -247,7 +247,7 @@
     },
     "slug": "under-armour",
     "image": "023.jpg",
-    "description": "Futuristic glove project leveraged footwear materials and manufacturing methods for Under Armour"
+    "description": "Futuristic glove project leveraging footwear materials and construction methods for UA"
   },
   {
     "colors": {
@@ -257,7 +257,7 @@
     },
     "slug": "mio",
     "image": "024.jpg",
-    "description": "Men’s sport watch concepts integrated performance, health-tracking and HR tech for wearables company Mio"
+    "description": "Men’s sport watch concepts integrating health-tracking and HR tech for wearables brand Mio"
   },
   {
     "colors": {
@@ -317,7 +317,7 @@
     },
     "slug": "nike-eyewear",
     "image": "030.jpg",
-    "description": "Snow goggle concepts for Nike eyewear attempting to identify more as apparel than equipment"
+    "description": "Snow goggle concepts for Nike eyewear attempting to identify more as outerwear than equipment"
   },
   {
     "colors": {
@@ -443,7 +443,7 @@
     },
     "slug": "john-wooden",
     "image": "042.jpg",
-    "description": "Retro canvas basketball sneaker branded and inspired by legendary coach John Wooden"
+    "description": "Retro canvas performance basketball sneaker inspired by legendary coach John Wooden"
   },
 
   {
@@ -455,5 +455,16 @@
     "slug": "Oughton",
     "image": "043.jpg",
     "description": "Equestrian lifestyle brand Oughton’s premium bag line, made in Argentina from rich leather & coated canvas."
+  },
+
+  {
+    "colors": {
+      "imageBg": "#333",
+      "text": "#f5d4b4",
+      "textBg": "#201f2a"
+    },
+    "slug": "Oughton",
+    "image": "client-logos.svg",
+    "description": "Thank you for reviewing these project examples. Please feel free to contact me to discuss the possibility of working together."
   }
 ]

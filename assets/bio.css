@@ -1,11 +1,10 @@
 .bio {
-  background-color: rgb(191, 191, 191);
   height: 100vh;
 }
 
 header {
   background-color: #333;
-  padding: 2rem 8rem;
+  /* padding: 2rem 8rem; */
 }
 
 body,
@@ -14,9 +13,47 @@ article {
   overflow: auto !important;
 }
 
+article {
+  background-color: rgb(191, 191, 191);
+}
+
+.no-break {
+  white-space: nowrap;
+}
+
+.contact {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.logos {
+  padding-top: 2rem;
+  text-align: center;
+}
+
+img {
+  opacity: 0.8;
+  max-width: 900px;
+}
+
+.contact .icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  flex-grow: 1;
+  font-size: 3rem;
+}
+
+.contact .icons a:nth-child(even) {
+  margin-left: 0.5rem;
+  text-decoration: none;
+  color: black;
+}
+
 section {
   padding: 5rem 8rem;
-  columns: 2;
   flex-grow: 200;
   color: #191717;
   font-size: 1.2rem;
@@ -58,7 +95,17 @@ blockquote {
   }
 
   section {
-    columns: 1;
     padding: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact {
+    flex-direction: column;
+  }
+
+  .contact .icons {
+    margin-top: 2rem;
+    justify-content: flex-start;
   }
 }

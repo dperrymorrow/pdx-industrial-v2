@@ -31,7 +31,7 @@ strong {
 }
 
 a {
-  color: var(--red);
+  color: black;
 }
 
 header {
@@ -52,9 +52,12 @@ header img {
 ul {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: flex-end;
-  height: 100%;
+}
+
+ul li {
+  padding: 0.3rem;
 }
 
 ul li a {
@@ -151,7 +154,7 @@ a.step:hover {
 .project img {
   opacity: 0;
   transition: opacity 1s ease;
-  box-shadow: var(--boxShadow);
+  /* box-shadow: var(--boxShadow); */
 }
 
 .project .img-container {
@@ -177,6 +180,8 @@ a.step:hover {
   line-height: 1.75rem;
   color: white;
   text-align: left;
+  /* TODO: descript should be at least as large as the header for letterbox look */
+  /* min-height: var(--headerHeight); */
 }
 
 /* breakpoints */
