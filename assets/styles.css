@@ -47,6 +47,7 @@ header img {
   height: 100%;
   width: auto;
   max-height: 50px;
+  cursor: pointer;
 }
 
 ul {
@@ -73,6 +74,12 @@ html {
   font-size: 16px;
   overflow: hidden;
   font-family: "Roboto Serif", sans-serif;
+}
+
+body {
+  transition: background-color, 0.3s ease-in;
+  padding: env(safe-area-inset-top) env(safe-area-inset-right)
+    env(safe-area-inset-bottom) env(safe-area-inset-left);
 }
 
 .loader {
@@ -141,6 +148,7 @@ a.step:hover {
 }
 
 .project {
+  user-select: none;
   position: relative;
   height: 100%;
   scroll-snap-align: start;

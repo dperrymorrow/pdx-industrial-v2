@@ -1,6 +1,16 @@
 [
   {
     "colors": {
+      "imageBg": "#222",
+      "text": "#ffd568",
+      "textBg": "#222"
+    },
+    "slug": "landing",
+    "image": "landing.png",
+    "description": null
+  },
+  {
+    "colors": {
       "imageBg": "#8d9097",
       "text": "#ffd568",
       "textBg": "#404348"

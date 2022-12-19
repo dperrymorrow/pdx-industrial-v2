@@ -3,7 +3,6 @@ import utils from "./utils.js";
 let projects = [];
 let slider = null;
 let slides = [];
-let currentSlide = 0;
 
 function slide(direction) {
   let left;
@@ -11,12 +10,10 @@ function slide(direction) {
 
   switch (direction) {
     case "prev":
-      currentSlide--;
       left = scrollLeft - clientWidth;
       break;
     case "next":
     default:
-      currentSlide++;
       left = scrollLeft + clientWidth;
       break;
   }
@@ -62,11 +59,12 @@ function interact() {
     });
   });
 
-  console.log(
-    projects.reduce((acc, p) => {
-      return (acc += p.description) + "\n\n";
-    }, "")
-  );
+  slides.forEach(($slide) => {
+    $slide.addEventListener("click", ({ pageX }) => {
+      if (parseInt($slide.dataset.slideIndex) < slides.length - 1)
+        slide("next");
+    });
+  });
 
   slider.addEventListener("scroll", () => {
     const $current = slides.find((slide) => {
@@ -80,7 +78,7 @@ function interact() {
 
       window.location.hash = $current.dataset.slug;
 
-      document.getElementById("app-container").style.backgroundColor = color;
+      document.body.style.backgroundColor = color;
 
       if (index === 0) prevButton.classList.add("hidden");
       else prevButton.classList.remove("hidden");
@@ -93,6 +91,13 @@ function interact() {
 
 export default {
   async startup() {
+    // Set a timeout...
+    window.addEventListener("load", function () {
+      setTimeout(function () {
+        window.scrollTo(0, 1);
+      }, 100);
+    });
+
     const tplRes = await fetch("./assets/projects.hbs");
     const dataRes = await fetch("./assets/data/projects.json");
 
