@@ -46,6 +46,11 @@ function interact() {
     else if (code == "ArrowLeft") slide("prev");
   });
 
+  // disable back button on safari
+  window.addEventListener("popstate", (ev) => {
+    ev.preventDefault();
+  });
+
   const prevButton = document.querySelector("[data-prev]");
   const nextButton = document.querySelector("[data-next]");
 
